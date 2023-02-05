@@ -2,7 +2,7 @@
 pragma solidity ^0.8.15;
 
 import {IBridge} from "./bridge/IBridge.sol";
-import {ReentrancyGuard} from "openzeppelin-contracts/security/ReentrancyGuard.sol";
+import {ReentrancyGuard} from "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 
 abstract contract BandBridgeConsumer is ReentrancyGuard {
     struct OracleBasicConfiguration {

@@ -12,3 +12,9 @@ docs/
 
 # Dotenv file
 .env
+
+/hardhat/contracts
+/hardhat/node_modules
+/hardhat/artifacts
+
+package-lock.json
